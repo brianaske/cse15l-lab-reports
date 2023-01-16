@@ -10,7 +10,7 @@
 
 ## Install Visual Studio Code (VScode)
 <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/59520785/212753429-5688bd17-a528-4c8e-ac80-251c2bf4f2e3.png"></div>
-(already installed)
+<div align = center>(already installed)</div>
 
 ## Remotely Connect
 1. Install Git for Windows
