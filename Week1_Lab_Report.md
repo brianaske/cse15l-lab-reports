@@ -9,7 +9,7 @@
 6. Wait fot it to take effect. (For me, it took more than 2 hours!)
 
 ## Install Visual Studio Code (VScode)
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/59520785/212753429-5688bd17-a528-4c8e-ac80-251c2bf4f2e3.png">
+![Image](https://user-images.githubusercontent.com/59520785/212753429-5688bd17-a528-4c8e-ac80-251c2bf4f2e3.png)
 (already installed)
 
 ## Remotely Connect
@@ -17,7 +17,7 @@
 2. In VScode, open a new terminal, and set it to use the newly-installed git bash
 3. Type `ssh cs15lwi23apu@ieng6.ucsd.edu` to connect remotely (use the password you just changed.)
 4. Now on the remote server
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/59520785/212752783-599992e8-cdeb-4d4c-aca5-694402311e85.png">
+![image](https://user-images.githubusercontent.com/59520785/212752783-599992e8-cdeb-4d4c-aca5-694402311e85.png)
 
 ## Run commands
 * `cd ~`
