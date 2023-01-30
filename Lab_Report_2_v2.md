@@ -109,34 +109,34 @@ The bug in class ArrayExamples - reverseInPlace method
 	}</code></pre>
 - Screenshots of the symptons  
     -  There is no sympton for testReverseInPlace()  
-            <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215365156-3a2765db-a47a-4bff-b9c0-cf529bd4ef8f.png"></div>
+		![image](https://user-images.githubusercontent.com/57138953/215365156-3a2765db-a47a-4bff-b9c0-cf529bd4ef8f.png)
+
     -  There is a sympton where expected output: 3 is not equal to the actual output: 4  
-            <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215365329-517e7f9a-69b0-460d-8706-9840ca22d891.png"></div>
+    		![image](https://user-images.githubusercontent.com/57138953/215365329-517e7f9a-69b0-460d-8706-9840ca22d891.png)
 - Fix the bug
     -  Original code
-        <pre><code>    // Changes the input array to be in reversed order
-        static void reverseInPlace(int[] arr) {
-          for(int i = 0; i < arr.length; i += 1) {
-            arr[i] = arr[arr.length - i - 1];
-          }
-        }</code></pre>
+		<pre><code>    // Changes the input array to be in reversed order
+		static void reverseInPlace(int[] arr) {
+		  for(int i = 0; i < arr.length; i += 1) {
+		    arr[i] = arr[arr.length - i - 1];
+		  }
+		}</code></pre>
         
     -  Fix the bug
-        <pre><code> // Changes the input array to be in reversed order
-        // Let the number of interations become half of the original.
-        // In addition to overwriting index ith element in the array, we should create a media variable to store the changed value 
-        // and assign it to index arr.length - i - 1th element
-          static void reverseInPlace(int[] arr) {
-            for(int i = 0; i < arr.length/2; i += 1) {
-              int temporary = arr[i];
-              arr[i] = arr[arr.length - i - 1];
-              arr[arr.length - i - 1] = temporary;
-            }
-          }</code></pre>
+		<pre><code> // Changes the input array to be in reversed order
+		// Let the number of interations become half of the original.
+		// In addition to overwriting index ith element in the array, we should create a media variable to store the changed value 
+		// and assign it to index arr.length - i - 1th element
+		  static void reverseInPlace(int[] arr) {
+		    for(int i = 0; i < arr.length/2; i += 1) {
+		      int temporary = arr[i];
+		      arr[i] = arr[arr.length - i - 1];
+		      arr[arr.length - i - 1] = temporary;
+		    }
+		  }</code></pre>
+		 
 ## Part 3
 From Lab2, I learned how to create a webserver and communicate with the users. Also, I am introduced to the methods that can process the input from urls and return output on the webpage. From Lab 3, I learned some definitions of debugging, including symptons, bugs. It is helpful to set up Junit test to run a series of comparing tests that can enhance our code quality.
-
-
 
 
 
