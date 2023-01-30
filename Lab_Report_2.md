@@ -91,7 +91,7 @@ Using the example from [Week 2 Lab guideline](https://ucsd-cse15l-w23.github.io/
 - method called: `handleRequest`, `connectString`
 - respective relveant argumets: `URI url`, `String string`
 
-    | field name | Value after 6. | Value after 7. |
+    | field name | Value after Step 6. | Value after Step 7. |
     | :-----:| :----: | :----: |
     | url.getpath() | /add?s=Hello,%20my%20name%20is%20Brian. | /add?s=How%20are%20you?|
     | parameters | {s, Hello,%20my%20name%20is%20Brian.} | {s, How%20are%20you?} |
