@@ -113,7 +113,7 @@ The bug in class ArrayExamples - reverseInPlace method
 	}</code></pre>
 - Screenshots of the symptons  
     -  There is no sympton for testReverseInPlace()
-            <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215365156-3a2765db-a47a-4bff-b9c0-cf529bd4ef8f.png"> </div>
+            <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215365156-3a2765db-a47a-4bff-b9c0-cf529bd4ef8f.png"></div>
     -  There is a sympton where expected output: 3 is not equal to the actual output: 4
             <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215365329-517e7f9a-69b0-460d-8706-9840ca22d891.png"></div>
 - Fix the bug
