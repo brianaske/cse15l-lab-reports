@@ -80,13 +80,10 @@ Using the example from [Week 2 Lab guideline](https://ucsd-cse15l-w23.github.io/
 4. Compile and run: type `javac Server.java SearchEngine.java` and `java SearchEngine 4000` in the terminal. `4000` is just one of the port. The number could be between 1024 to 49151.
 5. Visit http://localhost:4000 on a browser
 <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215358652-55d3bafd-f112-4f48-99ad-008d19edb1f1.png"></div>
-
 6. Visit http://localhost:4000/add?s=Hello,%20my%20name%20is%20Brian. on a browser 
 <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215359224-d853f6a5-664a-41e4-803e-72b06e7b5484.png"></div>
-
 7. Visit http://localhost:4000/add?s=How%20are%20you? on a browser.  
 <div align = center><img width="600" alt="image" src="https://user-images.githubusercontent.com/57138953/215359283-e8073dac-97bc-4283-87ee-1d415c0e89cf.png"></div>
-
 8. Traces of program in Step 6 and 7.  
 - method called: `handleRequest`, `connectString`
 - respective relveant argumets: `URI url`, `String string`
