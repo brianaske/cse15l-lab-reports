@@ -39,3 +39,7 @@
     <img width="757" alt="image" src="https://user-images.githubusercontent.com/57138953/221770345-58598007-3d4c-4fe6-89b0-fd542f291f8d.png">
 
 7. Commit and push the resulting change to your Github account (you can pick any commit message!)
+        
+    `$ git add ListExamples.java`, `$ git add ListExamples.java`, `git push` - commit and push the change to online respository
+    <img width="403" alt="image" src="https://user-images.githubusercontent.com/57138953/221771928-34b2df43-cda0-4786-a6e9-646cf91b2666.png">
+
