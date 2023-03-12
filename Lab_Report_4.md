@@ -41,6 +41,7 @@
 
 7. Commit and push the resulting change to your Github account (you can pick any commit message!)
         
-    `$ git add ListExamples.java`, `$ git add ListExamples.java`, `git push` - commit and push the change to online respository
-    <img width="403" alt="image" src="https://user-images.githubusercontent.com/57138953/221771928-34b2df43-cda0-4786-a6e9-646cf91b2666.png">
+    `$ git add ListExamples.java`, `$ git commit -m "Updated"`, `git push` - commit and push the change to online respository
+    <img width="456" alt="image" src="https://user-images.githubusercontent.com/57138953/224529368-381326d9-84dd-49d5-96ec-d06a49f006d8.png">
+
 
