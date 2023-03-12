@@ -26,15 +26,16 @@
     
     `$ nano ListExamples.java` - open and ready to edit the file`
     
-    find the bug and fix it. (in the last while loop: `index1+=1` should be `index2+=1`)
+    find the bug press,by pressing < down > for 42 times and < right > to locate the bug, and fix it. (in the last while loop: `index1+=1` should be `index2+=1`)
+    Press <ctrl>+O to write out, <enter> to save, < ctrl >+x to exit.
     
     <img width="222" alt="image" src="https://user-images.githubusercontent.com/57138953/221769285-f334c278-4e6e-4665-bf30-1e540de1ff6f.png">
     
 6. Run the tests, demonstrating that they now succeed
     
-    `$ javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java` - compile files (use `<ctrl>+c and <ctrl>+v` to copy and paste from resource)
+    `$ javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java` - compile files (use `<ctrl>+c and <ctrl>+v` to copy and paste from resource or press < up > for three times.)
     
-    `$ java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples` - run tests (use `<ctrl>+c and <ctrl>+v` to copy and 
+    `$ java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests` - run tests (use `<ctrl>+c and <ctrl>+v` to copy and paste from resource or press < up > for three times.) 
     
     <img width="757" alt="image" src="https://user-images.githubusercontent.com/57138953/221770345-58598007-3d4c-4fe6-89b0-fd542f291f8d.png">
 
