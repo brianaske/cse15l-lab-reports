@@ -57,6 +57,7 @@
     ````
 2. type `bash command.sh` in terminal
     
-    <img width="455" alt="image" src="https://user-images.githubusercontent.com/57138953/224614108-34e51e0e-8eca-4dbc-a521-ee1ce531cc1a.png">
+    <img width="444" alt="image" src="https://user-images.githubusercontent.com/57138953/224614599-73801075-d609-41a7-8158-d0f8a3989128.png">
+
 
 
