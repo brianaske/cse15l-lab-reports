@@ -44,7 +44,19 @@
     `$ git add ListExamples.java`, `$ git commit -m "Updated"`, `git push` - commit and push the change to online respository
     <img width="456" alt="image" src="https://user-images.githubusercontent.com/57138953/224529368-381326d9-84dd-49d5-96ec-d06a49f006d8.png">
 
-## Tasks in competition (Lab Report 4 content)
+## Put all the thing into one file
 
-1. create bash file as follows:
+1. create a bash file named command.sh as follows:
+    ````
+    ```
+    git clone git@github.com:brianaske/lab7.git && cd lab7/ && sed -i '43s/index1 += 1/index2 += 1/' ListExamples.java 
+    && javac -cp ".:lib/hamcrest-core-       1.3.jar:lib/junit-4.13.2.jar" *.java 
+    && java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests 
+    && git add ListExamples.java && git commit -m "Updated" && git push && cd.. && rm -rf lab7/
+    ```
+    ````
+2. type `bash command.sh` in terminal
+    
+    <img width="455" alt="image" src="https://user-images.githubusercontent.com/57138953/224614108-34e51e0e-8eca-4dbc-a521-ee1ce531cc1a.png">
+
 
